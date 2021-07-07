@@ -38,5 +38,6 @@ try:
         # image.verify()
         # print('Image is verified')
 finally:
+    connection.write(struct.pack('<L', 0))
     connection.close()
     server_socket.close()
