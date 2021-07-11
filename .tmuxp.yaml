@@ -1,4 +1,4 @@
-session_name: ${PROJ}
+session_name: opencv-test
 start_directory: "${PWD}"
 shell_command_before: sv
 environment:
